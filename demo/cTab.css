@@ -1,0 +1,22 @@
+.ctab{
+    width:100%;
+    background-color: #13A0AA;
+    color: #fff;
+    padding: 15px;
+}
+.ctab a{
+    color: #e8d069;
+}
+.ctabHide{display:none;}
+.ctab ul{margin:0; padding:0;}
+.ctab li{list-style:none;}
+.ctab a{outline:none;}
+.ctab a,
+.ctab a:hover{text-decoration:none;}
+.ctab .tab_menu{margin-bottom:10px; border-bottom:1px solid #0D747C;}
+.ctab .menu_item{font-size:14px; float:left; padding:10px 15px;}
+.ctab .active{margin-bottom:-1px; border:1px solid #0D747C; border-bottom:0; border-radius:4px 4px 0 0; background-color:#13A0AA;}
+.ctab .active,
+.ctab .active a{color:#fff;}
+.ctab .tab_con{margin-bottom:10px;}
+

@@ -1,13 +1,8 @@
 /*
- * 匠心内部开发
  * author：luoluo
  * website：http://luoluo.in/ctab/
  * version：1.0
  * contact：1054816104@qq.com
- *
- * update: 2014-6-5
- * author: luoluo
- * describe: 添加隐藏某个tab的方法
  */
 ctab = function($dom,opt){
 	opt.menus = typeof opt.menus === 'string' ? $dom.find(opt.menus) : opt.menus;

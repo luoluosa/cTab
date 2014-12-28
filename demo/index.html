@@ -2,9 +2,26 @@
 <html>
     <head>
         <title>my ctab</title>
-        <script src="jquery-1.11.2.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="base.css">
+        <link type="text/css" rel="stylesheet" href="cTab.css">
+        <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
     </head>
     <body>
-
+        <div class="ctab ctab-default">
+            <ul class="tab_menu clearfix">
+                <li class="menu_item"><a href="javascript:;">item-1</a></li>
+                <li class="menu_item"><a href="javascript:;">item-2</a></li>
+                <li class="menu_item"><a href="javascript:;">item-3</a></li>
+            </ul>
+            <ul class="tab_con">
+                <li class="con_item">content-1</li>
+                <li class="con_item ctabHide">content-2</li>
+                <li class="con_item ctabHide">content-3</li>
+            </ul>
+        </div>
+        <script type="text/javascript" src="cTab.js"></script>
+        <script type="text/javascript">
+            $('.ctab-default').ctab();
+        </script>
     </body>
 </html>
